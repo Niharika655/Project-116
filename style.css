@@ -1,0 +1,48 @@
+h3 {
+    font-size: 25px;
+}
+
+.btn-success:hover {
+    background: red;
+}
+
+canvas {
+    margin-top: 50px;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+    0% {
+        box-shadow: 7px 7px 35px violet;
+    }
+
+    15% {
+        box-shadow: 7px 7px 35px indigo;
+    }
+
+    30% {
+        box-shadow: 7px 7px 35px blue;
+    }
+
+    45% {
+        box-shadow: 7px 7px 35px green;
+    }
+
+    60% {
+        box-shadow: 7px 7px 35px yellow;
+    }
+
+    75% {
+        box-shadow: 7px 7px 35px orange;
+    }
+
+    90% {
+        box-shadow: 7px 7px 35px red;
+    }
+}
+
+body{
+    background-size: cover;
+}
